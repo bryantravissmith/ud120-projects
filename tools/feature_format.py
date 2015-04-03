@@ -45,7 +45,8 @@ def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True
 
     return_list = []
 
-    for key in sorted(dictionary.keys()):
+    #for key in sorted(dictionary.keys()):
+    for key in dictionary.keys():
         tmp_list = []
         append = False
         for feature in features:

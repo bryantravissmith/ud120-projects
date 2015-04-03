@@ -14,7 +14,10 @@ def outlierCleaner(predictions, ages, net_worths):
     cleaned_data = []
 
     ### your code goes here
+    for i,value in enumerate(age):
+        cleaned_data.append((abs(predictions[i]-net_worths[i]),net_worths[i],ages[i]))
+    cleaned_data.sort()
+    length = floor(len(cleaned_data)*0.9)
 
-    
-    return cleaned_data
+    return cleaned_data[:length]
 

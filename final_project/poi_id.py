@@ -14,12 +14,12 @@ features_list = ['poi','salary'] # You will need to use more features
 
 ### Load the dictionary containing the dataset
 data_dict = pickle.load(open("final_project_dataset.pkl", "r") )
-
+#print data_dict[data_dict.keys()[0]]
 ### Task 2: Remove outliers
 ### Task 3: Create new feature(s)
 ### Store to my_dataset for easy export below.
 my_dataset = data_dict
-
+print my_dataset
 ### Extract features and labels from dataset for local testing
 data = featureFormat(my_dataset, features_list)
 labels, features = targetFeatureSplit(data)

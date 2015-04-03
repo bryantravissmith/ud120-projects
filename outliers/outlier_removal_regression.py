@@ -25,7 +25,16 @@ ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages
 
 ### fill in a regression here!  Name the regression object reg so that
 ### the plotting code below works, and you can see what your regression looks like
+from sklearn.linear_model import LinearRegression
 
+reg = LinearRegression()
+reg.fit(ages_train,net_worths_train)
+pred = reg.predict(ages_test)
+
+print reg.score(ages_train,net_worths_train)
+print reg.score(ages_test,net_worths_test)
+print reg.coef_
+print reg.intercept_
 
 
 
@@ -38,14 +47,29 @@ ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages
 
 try:
     plt.plot(ages, reg.predict(ages), color="blue")
+    pass
 except NameError:
     pass
 plt.scatter(ages, net_worths)
 plt.show()
 
+def outlierCleaner(predictions, ages, net_worths):
+
+    cleaned_data = []
+    errors = numpy.absolute(predictions-net_worths)
+
+    dtype = [('age',int),('net-worth',float),('error',float)]
+    for i,value in enumerate(ages):
+        cleaned_data.append((ages[i][0],net_worths[i][0],errors[i][0]))
+
+    cleaned_data_array = numpy.array(cleaned_data,dtype)
+    cleaned_data_array = numpy.sort(cleaned_data_array,order='error')
+    length = int(len(cleaned_data_array)*.9)
+    return cleaned_data_array[:length]
 
 ### identify and remove the most outlier-y points
 cleaned_data = []
+
 try:
     predictions = reg.predict(ages_train)
     cleaned_data = outlierCleaner( predictions, ages_train, net_worths_train )
@@ -68,6 +92,10 @@ if len(cleaned_data) > 0:
     ### refit your cleaned data!
     try:
         reg.fit(ages, net_worths)
+        print reg.score(ages_train,net_worths_train)
+        print reg.score(ages_test,net_worths_test)
+        print reg.coef_
+        print reg.intercept_
         plt.plot(ages, reg.predict(ages), color="blue")
     except NameError:
         print "you don't seem to have regression imported/created,"
