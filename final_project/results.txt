@@ -1,0 +1,635 @@
+['ALLEN PHILLIP K', 'BELDEN TIMOTHY N', 'BHATNAGAR SANJAY', 'BLAKE JR. NORMAN P', 'FREVERT MARK A', 'GRAMM WENDY L', 'HANNON KEVIN P', 'HIRKO JOSEPH', 'HORTON STANLEY C', 'HUMPHREY GENE E', 'JAEDICKE ROBERT', 'LAVORATO JOHN J', 'LAY KENNETH L', 'LEMAISTRE CHARLES', 'MARTIN AMANDA K', 'MCCLELLAN GEORGE', 'PAI LOU L', 'RICE KENNETH D', 'SAVAGE FRANK', 'SHANKMAN JEFFREY A', 'SKILLING JEFFREY K', 'URQUHART JOHN A', 'WAKEHAM JOHN', 'WHITE JR THOMAS E', 'WINOKUR JR. HERBERT S']
+[ 0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  1.  1.
+  0.  0.  0.  0.  0.  1.  0.  0.  0.]
+0.375
+0.6
+['poi', 'salary', 'to_messages']
+	Accuracy: 0.72325	Precision: 0.17796	Recall: 0.18250	F1: 0.18020	F2: 0.18157
+
+['poi', 'salary', 'deferral_payments']
+	Accuracy: 0.73036	Precision: 0.23664	Recall: 0.21700	F1: 0.22640	F2: 0.22066
+
+['poi', 'salary', 'total_payments']
+	Accuracy: 0.76792	Precision: 0.18785	Recall: 0.15300	F1: 0.16864	F2: 0.15890
+
+['poi', 'salary', 'exercised_stock_options']
+	Accuracy: 0.77800	Precision: 0.30381	Recall: 0.34300	F1: 0.32222	F2: 0.33437
+
+['poi', 'salary', 'bonus']
+	Accuracy: 0.64930	Precision: 0.15951	Recall: 0.17650	F1: 0.16758	F2: 0.17282
+
+['poi', 'salary', 'restricted_stock']
+	Accuracy: 0.72892	Precision: 0.15895	Recall: 0.14600	F1: 0.15220	F2: 0.14842
+
+['poi', 'salary', 'shared_receipt_with_poi']
+	Accuracy: 0.77467	Precision: 0.29487	Recall: 0.25300	F1: 0.27234	F2: 0.26040
+
+['poi', 'salary', 'restricted_stock_deferred']
+	Accuracy: 0.69800	Precision: 0.21110	Recall: 0.24150	F1: 0.22528	F2: 0.23474
+
+['poi', 'salary', 'total_stock_value']
+	Accuracy: 0.75962	Precision: 0.19968	Recall: 0.18700	F1: 0.19313	F2: 0.18941
+
+['poi', 'salary', 'expenses']
+	Accuracy: 0.71309	Precision: 0.23141	Recall: 0.24900	F1: 0.23988	F2: 0.24527
+
+['poi', 'salary', 'loan_advances']
+	Accuracy: 0.68380	Precision: 0.19161	Recall: 0.18050	F1: 0.18589	F2: 0.18262
+
+['poi', 'salary', 'from_messages']
+	Accuracy: 0.72508	Precision: 0.13326	Recall: 0.11800	F1: 0.12517	F2: 0.12077
+
+['poi', 'salary', 'other']
+	Accuracy: 0.69650	Precision: 0.22488	Recall: 0.21150	F1: 0.21799	F2: 0.21405
+
+['poi', 'salary', 'from_this_person_to_poi']
+	Accuracy: 0.72291	Precision: 0.21645	Recall: 0.20000	F1: 0.20790	F2: 0.20309
+
+['poi', 'salary', 'director_fees']
+	Accuracy: 0.72567	Precision: 0.21391	Recall: 0.24150	F1: 0.22687	F2: 0.23543
+
+['poi', 'salary', 'deferred_income']
+	Accuracy: 0.70545	Precision: 0.20363	Recall: 0.21300	F1: 0.20821	F2: 0.21106
+
+['poi', 'salary', 'long_term_incentive']
+	Accuracy: 0.66690	Precision: 0.16841	Recall: 0.16900	F1: 0.16870	F2: 0.16888
+
+['poi', 'salary', 'from_poi_to_this_person']
+	Accuracy: 0.68036	Precision: 0.11871	Recall: 0.11800	F1: 0.11836	F2: 0.11814
+
+['poi', 'salary', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.77282	Precision: 0.37418	Recall: 0.37100	F1: 0.37258	F2: 0.37163
+
+['poi', 'salary', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.73382	Precision: 0.26254	Recall: 0.25650	F1: 0.25948	F2: 0.25769
+
+['poi', 'to_messages', 'deferral_payments']
+	Accuracy: 0.75618	Precision: 0.32602	Recall: 0.31950	F1: 0.32273	F2: 0.32078
+
+['poi', 'to_messages', 'total_payments']
+	Accuracy: 0.75857	Precision: 0.13298	Recall: 0.12500	F1: 0.12887	F2: 0.12652
+
+['poi', 'to_messages', 'exercised_stock_options']
+	Accuracy: 0.82415	Precision: 0.43815	Recall: 0.50650	F1: 0.46985	F2: 0.49118
+
+['poi', 'to_messages', 'bonus']
+	Accuracy: 0.79082	Precision: 0.42133	Recall: 0.40300	F1: 0.41196	F2: 0.40654
+
+['poi', 'to_messages', 'restricted_stock']
+	Accuracy: 0.74008	Precision: 0.19543	Recall: 0.17950	F1: 0.18713	F2: 0.18247
+
+['poi', 'to_messages', 'shared_receipt_with_poi']
+	Accuracy: 0.77311	Precision: 0.48832	Recall: 0.43900	F1: 0.46235	F2: 0.44805
+
+['poi', 'to_messages', 'restricted_stock_deferred']
+	Accuracy: 0.74070	Precision: 0.34849	Recall: 0.34100	F1: 0.34471	F2: 0.34247
+
+['poi', 'to_messages', 'total_stock_value']
+	Accuracy: 0.77514	Precision: 0.21069	Recall: 0.20900	F1: 0.20984	F2: 0.20933
+
+['poi', 'to_messages', 'expenses']
+	Accuracy: 0.74142	Precision: 0.21761	Recall: 0.21250	F1: 0.21503	F2: 0.21350
+
+['poi', 'to_messages', 'loan_advances']
+	Accuracy: 0.72733	Precision: 0.37568	Recall: 0.34300	F1: 0.35860	F2: 0.34907
+
+['poi', 'to_messages', 'from_messages']
+	Accuracy: 0.72256	Precision: 0.37171	Recall: 0.36000	F1: 0.36576	F2: 0.36228
+
+['poi', 'to_messages', 'other']
+	Accuracy: 0.70392	Precision: 0.16774	Recall: 0.19600	F1: 0.18077	F2: 0.18961
+
+['poi', 'to_messages', 'from_this_person_to_poi']
+	Accuracy: 0.70633	Precision: 0.33521	Recall: 0.32700	F1: 0.33106	F2: 0.32861
+
+['poi', 'to_messages', 'director_fees']
+	Accuracy: 0.75164	Precision: 0.32181	Recall: 0.33050	F1: 0.32610	F2: 0.32872
+
+['poi', 'to_messages', 'deferred_income']
+	Accuracy: 0.80458	Precision: 0.40160	Recall: 0.35200	F1: 0.37517	F2: 0.36091
+
+['poi', 'to_messages', 'long_term_incentive']
+	Accuracy: 0.69800	Precision: 0.20622	Recall: 0.23200	F1: 0.21835	F2: 0.22634
+
+['poi', 'to_messages', 'from_poi_to_this_person']
+	Accuracy: 0.70844	Precision: 0.32171	Recall: 0.28150	F1: 0.30027	F2: 0.28872
+
+['poi', 'to_messages', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.71422	Precision: 0.36407	Recall: 0.38300	F1: 0.37329	F2: 0.37906
+
+['poi', 'to_messages', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.74467	Precision: 0.41456	Recall: 0.36150	F1: 0.38622	F2: 0.37100
+
+['poi', 'deferral_payments', 'total_payments']
+	Accuracy: 0.72792	Precision: 0.07705	Recall: 0.07000	F1: 0.07336	F2: 0.07130
+
+['poi', 'deferral_payments', 'exercised_stock_options']
+	Accuracy: 0.82408	Precision: 0.47429	Recall: 0.51200	F1: 0.49243	F2: 0.50399
+
+['poi', 'deferral_payments', 'bonus']
+	Accuracy: 0.73330	Precision: 0.29324	Recall: 0.23650	F1: 0.26183	F2: 0.24602
+
+['poi', 'deferral_payments', 'restricted_stock']
+	Accuracy: 0.75454	Precision: 0.09736	Recall: 0.07200	F1: 0.08278	F2: 0.07596
+
+['poi', 'deferral_payments', 'shared_receipt_with_poi']
+	Accuracy: 0.79609	Precision: 0.44367	Recall: 0.47850	F1: 0.46043	F2: 0.47110
+
+['poi', 'deferral_payments', 'restricted_stock_deferred']
+	Accuracy: 0.79833	Precision: 0.68355	Recall: 0.73550	F1: 0.70857	F2: 0.72449
+
+['poi', 'deferral_payments', 'total_stock_value']
+	Accuracy: 0.75123	Precision: 0.16136	Recall: 0.14700	F1: 0.15385	F2: 0.14966
+
+['poi', 'deferral_payments', 'expenses']
+	Accuracy: 0.71764	Precision: 0.19748	Recall: 0.18050	F1: 0.18861	F2: 0.18366
+
+['poi', 'deferral_payments', 'loan_advances']
+	Accuracy: 0.77350	Precision: 0.63644	Recall: 0.74750	F1: 0.68751	F2: 0.72229
+
+['poi', 'deferral_payments', 'from_messages']
+	Accuracy: 0.71473	Precision: 0.21204	Recall: 0.20950	F1: 0.21076	F2: 0.21000
+
+['poi', 'deferral_payments', 'other']
+	Accuracy: 0.68355	Precision: 0.15120	Recall: 0.16050	F1: 0.15571	F2: 0.15855
+
+['poi', 'deferral_payments', 'from_this_person_to_poi']
+	Accuracy: 0.75690	Precision: 0.36623	Recall: 0.29500	F1: 0.32678	F2: 0.30694
+
+['poi', 'deferral_payments', 'director_fees']
+	Accuracy: 0.82186	Precision: 0.67121	Recall: 0.73800	F1: 0.70302	F2: 0.72360
+
+['poi', 'deferral_payments', 'deferred_income']
+	Accuracy: 0.77275	Precision: 0.54426	Recall: 0.55950	F1: 0.55178	F2: 0.55638
+
+['poi', 'deferral_payments', 'long_term_incentive']
+	Accuracy: 0.71033	Precision: 0.33586	Recall: 0.31050	F1: 0.32268	F2: 0.31526
+
+['poi', 'deferral_payments', 'from_poi_to_this_person']
+	Accuracy: 0.70390	Precision: 0.22590	Recall: 0.19800	F1: 0.21103	F2: 0.20301
+
+['poi', 'deferral_payments', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.74890	Precision: 0.38274	Recall: 0.41700	F1: 0.39914	F2: 0.40967
+
+['poi', 'deferral_payments', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.74130	Precision: 0.34313	Recall: 0.32100	F1: 0.33170	F2: 0.32520
+
+['poi', 'total_payments', 'exercised_stock_options']
+	Accuracy: 0.80136	Precision: 0.30961	Recall: 0.31750	F1: 0.31350	F2: 0.31589
+
+['poi', 'total_payments', 'bonus']
+	Accuracy: 0.78885	Precision: 0.32014	Recall: 0.33150	F1: 0.32572	F2: 0.32916
+
+['poi', 'total_payments', 'restricted_stock']
+	Accuracy: 0.75464	Precision: 0.10028	Recall: 0.09000	F1: 0.09486	F2: 0.09188
+
+['poi', 'total_payments', 'shared_receipt_with_poi']
+	Accuracy: 0.79029	Precision: 0.26000	Recall: 0.25350	F1: 0.25671	F2: 0.25477
+
+['poi', 'total_payments', 'restricted_stock_deferred']
+	Accuracy: 0.75492	Precision: 0.10728	Recall: 0.08100	F1: 0.09231	F2: 0.08517
+
+['poi', 'total_payments', 'total_stock_value']
+	Accuracy: 0.80053	Precision: 0.25250	Recall: 0.25300	F1: 0.25275	F2: 0.25290
+
+['poi', 'total_payments', 'expenses']
+	Accuracy: 0.75946	Precision: 0.23306	Recall: 0.24600	F1: 0.23936	F2: 0.24330
+
+['poi', 'total_payments', 'loan_advances']
+	Accuracy: 0.75492	Precision: 0.09160	Recall: 0.06650	F1: 0.07706	F2: 0.07036
+
+['poi', 'total_payments', 'from_messages']
+	Accuracy: 0.74443	Precision: 0.07213	Recall: 0.06650	F1: 0.06920	F2: 0.06755
+
+['poi', 'total_payments', 'other']
+	Accuracy: 0.76200	Precision: 0.16646	Recall: 0.13650	F1: 0.15000	F2: 0.14160
+
+['poi', 'total_payments', 'from_this_person_to_poi']
+	Accuracy: 0.75046	Precision: 0.16595	Recall: 0.15450	F1: 0.16002	F2: 0.15666
+
+['poi', 'total_payments', 'director_fees']
+	Accuracy: 0.74931	Precision: 0.07837	Recall: 0.05850	F1: 0.06699	F2: 0.06162
+
+['poi', 'total_payments', 'deferred_income']
+	Accuracy: 0.77823	Precision: 0.25376	Recall: 0.22750	F1: 0.23992	F2: 0.23231
+
+['poi', 'total_payments', 'long_term_incentive']
+	Accuracy: 0.75877	Precision: 0.18514	Recall: 0.16700	F1: 0.17560	F2: 0.17034
+
+['poi', 'total_payments', 'from_poi_to_this_person']
+	Accuracy: 0.75015	Precision: 0.14545	Recall: 0.12800	F1: 0.13617	F2: 0.13115
+
+['poi', 'total_payments', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.77515	Precision: 0.24986	Recall: 0.23050	F1: 0.23979	F2: 0.23413
+
+['poi', 'total_payments', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.76485	Precision: 0.16057	Recall: 0.12500	F1: 0.14057	F2: 0.13079
+
+['poi', 'exercised_stock_options', 'bonus']
+	Accuracy: 0.78877	Precision: 0.34612	Recall: 0.41950	F1: 0.37929	F2: 0.40244
+
+['poi', 'exercised_stock_options', 'restricted_stock']
+	Accuracy: 0.78008	Precision: 0.25359	Recall: 0.22100	F1: 0.23617	F2: 0.22683
+
+['poi', 'exercised_stock_options', 'shared_receipt_with_poi']
+	Accuracy: 0.82638	Precision: 0.43801	Recall: 0.45400	F1: 0.44586	F2: 0.45071
+
+['poi', 'exercised_stock_options', 'restricted_stock_deferred']
+	Accuracy: 0.84617	Precision: 0.53677	Recall: 0.56200	F1: 0.54910	F2: 0.55677
+
+['poi', 'exercised_stock_options', 'total_stock_value']
+	Accuracy: 0.76569	Precision: 0.21730	Recall: 0.20100	F1: 0.20883	F2: 0.20406
+
+['poi', 'exercised_stock_options', 'expenses']
+	Accuracy: 0.77800	Precision: 0.28091	Recall: 0.28400	F1: 0.28245	F2: 0.28338
+
+['poi', 'exercised_stock_options', 'loan_advances']
+	Accuracy: 0.84345	Precision: 0.56999	Recall: 0.56600	F1: 0.56799	F2: 0.56679
+
+['poi', 'exercised_stock_options', 'from_messages']
+	Accuracy: 0.78015	Precision: 0.30606	Recall: 0.33850	F1: 0.32146	F2: 0.33147
+
+['poi', 'exercised_stock_options', 'other']
+	Accuracy: 0.77985	Precision: 0.31342	Recall: 0.36200	F1: 0.33596	F2: 0.35112
+
+['poi', 'exercised_stock_options', 'from_this_person_to_poi']
+	Accuracy: 0.79258	Precision: 0.39080	Recall: 0.43750	F1: 0.41283	F2: 0.42729
+
+['poi', 'exercised_stock_options', 'director_fees']
+	Accuracy: 0.85000	Precision: 0.54854	Recall: 0.56500	F1: 0.55665	F2: 0.56163
+
+['poi', 'exercised_stock_options', 'deferred_income']
+	Accuracy: 0.81792	Precision: 0.41453	Recall: 0.44500	F1: 0.42923	F2: 0.43855
+
+['poi', 'exercised_stock_options', 'long_term_incentive']
+	Accuracy: 0.76267	Precision: 0.29093	Recall: 0.29500	F1: 0.29295	F2: 0.29418
+
+['poi', 'exercised_stock_options', 'from_poi_to_this_person']
+	Accuracy: 0.80792	Precision: 0.42665	Recall: 0.44350	F1: 0.43491	F2: 0.44002
+
+['poi', 'exercised_stock_options', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.82092	Precision: 0.46649	Recall: 0.51850	F1: 0.49112	F2: 0.50719
+
+['poi', 'exercised_stock_options', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.80308	Precision: 0.41499	Recall: 0.44300	F1: 0.42854	F2: 0.43710
+
+['poi', 'bonus', 'restricted_stock']
+	Accuracy: 0.74233	Precision: 0.24366	Recall: 0.25950	F1: 0.25133	F2: 0.25617
+
+['poi', 'bonus', 'shared_receipt_with_poi']
+	Accuracy: 0.76218	Precision: 0.31311	Recall: 0.25800	F1: 0.28289	F2: 0.26741
+
+['poi', 'bonus', 'restricted_stock_deferred']
+	Accuracy: 0.78150	Precision: 0.43974	Recall: 0.33750	F1: 0.38190	F2: 0.35396
+
+['poi', 'bonus', 'total_stock_value']
+	Accuracy: 0.80008	Precision: 0.36635	Recall: 0.41050	F1: 0.38717	F2: 0.40084
+
+['poi', 'bonus', 'expenses']
+	Accuracy: 0.78309	Precision: 0.41314	Recall: 0.45900	F1: 0.43486	F2: 0.44903
+
+['poi', 'bonus', 'loan_advances']
+	Accuracy: 0.77544	Precision: 0.49243	Recall: 0.34150	F1: 0.40331	F2: 0.36380
+
+['poi', 'bonus', 'from_messages']
+	Accuracy: 0.75791	Precision: 0.31675	Recall: 0.28650	F1: 0.30087	F2: 0.29208
+
+['poi', 'bonus', 'other']
+	Accuracy: 0.70300	Precision: 0.20783	Recall: 0.17250	F1: 0.18852	F2: 0.17857
+
+['poi', 'bonus', 'from_this_person_to_poi']
+	Accuracy: 0.71000	Precision: 0.29452	Recall: 0.32250	F1: 0.30788	F2: 0.31649
+
+['poi', 'bonus', 'director_fees']
+	Accuracy: 0.78710	Precision: 0.45343	Recall: 0.31400	F1: 0.37105	F2: 0.33458
+
+['poi', 'bonus', 'deferred_income']
+	Accuracy: 0.76280	Precision: 0.37466	Recall: 0.27800	F1: 0.31917	F2: 0.29313
+
+['poi', 'bonus', 'long_term_incentive']
+	Accuracy: 0.72540	Precision: 0.33015	Recall: 0.36250	F1: 0.34557	F2: 0.35553
+
+['poi', 'bonus', 'from_poi_to_this_person']
+	Accuracy: 0.74030	Precision: 0.35792	Recall: 0.37600	F1: 0.36674	F2: 0.37224
+
+['poi', 'bonus', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.77510	Precision: 0.43894	Recall: 0.44750	F1: 0.44318	F2: 0.44576
+
+['poi', 'bonus', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.72920	Precision: 0.32997	Recall: 0.34350	F1: 0.33660	F2: 0.34071
+
+['poi', 'restricted_stock', 'shared_receipt_with_poi']
+	Accuracy: 0.71475	Precision: 0.13865	Recall: 0.13650	F1: 0.13757	F2: 0.13692
+
+['poi', 'restricted_stock', 'restricted_stock_deferred']
+	Accuracy: 0.72858	Precision: 0.09737	Recall: 0.07600	F1: 0.08537	F2: 0.07949
+
+['poi', 'restricted_stock', 'total_stock_value']
+	Accuracy: 0.75715	Precision: 0.12940	Recall: 0.10100	F1: 0.11345	F2: 0.10564
+
+['poi', 'restricted_stock', 'expenses']
+	Accuracy: 0.76846	Precision: 0.23195	Recall: 0.21850	F1: 0.22503	F2: 0.22106
+
+['poi', 'restricted_stock', 'loan_advances']
+	Accuracy: 0.73917	Precision: 0.11565	Recall: 0.08500	F1: 0.09798	F2: 0.08976
+
+['poi', 'restricted_stock', 'from_messages']
+	Accuracy: 0.72267	Precision: 0.08962	Recall: 0.07250	F1: 0.08015	F2: 0.07538
+
+['poi', 'restricted_stock', 'other']
+	Accuracy: 0.76550	Precision: 0.26087	Recall: 0.22200	F1: 0.23987	F2: 0.22882
+
+['poi', 'restricted_stock', 'from_this_person_to_poi']
+	Accuracy: 0.71733	Precision: 0.10137	Recall: 0.08850	F1: 0.09450	F2: 0.09081
+
+['poi', 'restricted_stock', 'director_fees']
+	Accuracy: 0.76569	Precision: 0.11374	Recall: 0.07700	F1: 0.09183	F2: 0.08232
+
+['poi', 'restricted_stock', 'deferred_income']
+	Accuracy: 0.73892	Precision: 0.13381	Recall: 0.10350	F1: 0.11672	F2: 0.10841
+
+['poi', 'restricted_stock', 'long_term_incentive']
+	Accuracy: 0.72642	Precision: 0.13696	Recall: 0.12100	F1: 0.12848	F2: 0.12389
+
+['poi', 'restricted_stock', 'from_poi_to_this_person']
+	Accuracy: 0.73408	Precision: 0.17226	Recall: 0.15650	F1: 0.16400	F2: 0.15942
+
+['poi', 'restricted_stock', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.76383	Precision: 0.27213	Recall: 0.24900	F1: 0.26005	F2: 0.25331
+
+['poi', 'restricted_stock', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.72525	Precision: 0.16065	Recall: 0.15350	F1: 0.15699	F2: 0.15488
+
+['poi', 'shared_receipt_with_poi', 'restricted_stock_deferred']
+	Accuracy: 0.79160	Precision: 0.47747	Recall: 0.44500	F1: 0.46066	F2: 0.45114
+
+['poi', 'shared_receipt_with_poi', 'total_stock_value']
+	Accuracy: 0.78214	Precision: 0.18824	Recall: 0.15850	F1: 0.17210	F2: 0.16367
+
+['poi', 'shared_receipt_with_poi', 'expenses']
+	Accuracy: 0.76075	Precision: 0.30991	Recall: 0.35500	F1: 0.33093	F2: 0.34496
+
+['poi', 'shared_receipt_with_poi', 'loan_advances']
+	Accuracy: 0.81556	Precision: 0.61644	Recall: 0.45000	F1: 0.52023	F2: 0.47569
+
+['poi', 'shared_receipt_with_poi', 'from_messages']
+	Accuracy: 0.73056	Precision: 0.38420	Recall: 0.35250	F1: 0.36767	F2: 0.35841
+
+['poi', 'shared_receipt_with_poi', 'other']
+	Accuracy: 0.73950	Precision: 0.24821	Recall: 0.27750	F1: 0.26204	F2: 0.27110
+
+['poi', 'shared_receipt_with_poi', 'from_this_person_to_poi']
+	Accuracy: 0.74878	Precision: 0.42391	Recall: 0.36350	F1: 0.39139	F2: 0.37416
+
+['poi', 'shared_receipt_with_poi', 'director_fees']
+	Accuracy: 0.82673	Precision: 0.52811	Recall: 0.44150	F1: 0.48094	F2: 0.45647
+
+['poi', 'shared_receipt_with_poi', 'deferred_income']
+	Accuracy: 0.82158	Precision: 0.46315	Recall: 0.44300	F1: 0.45285	F2: 0.44689
+
+['poi', 'shared_receipt_with_poi', 'long_term_incentive']
+	Accuracy: 0.74991	Precision: 0.29581	Recall: 0.27200	F1: 0.28341	F2: 0.27645
+
+['poi', 'shared_receipt_with_poi', 'from_poi_to_this_person']
+	Accuracy: 0.76467	Precision: 0.46838	Recall: 0.43700	F1: 0.45215	F2: 0.44294
+
+['poi', 'shared_receipt_with_poi', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.76044	Precision: 0.45742	Recall: 0.41900	F1: 0.43737	F2: 0.42616
+
+['poi', 'shared_receipt_with_poi', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.76078	Precision: 0.45565	Recall: 0.39300	F1: 0.42201	F2: 0.40411
+
+['poi', 'restricted_stock_deferred', 'total_stock_value']
+	Accuracy: 0.77308	Precision: 0.25389	Recall: 0.24500	F1: 0.24936	F2: 0.24673
+
+['poi', 'restricted_stock_deferred', 'expenses']
+	Accuracy: 0.67918	Precision: 0.11832	Recall: 0.11850	F1: 0.11841	F2: 0.11846
+
+['poi', 'restricted_stock_deferred', 'loan_advances']
+	Accuracy: 0.90850	Precision: 0.87824	Recall: 0.94850	F1: 0.91202	F2: 0.93356
+
+['poi', 'restricted_stock_deferred', 'from_messages']
+	Accuracy: 0.71410	Precision: 0.25415	Recall: 0.22200	F1: 0.23699	F2: 0.22776
+
+['poi', 'restricted_stock_deferred', 'other']
+	Accuracy: 0.67300	Precision: 0.20547	Recall: 0.22150	F1: 0.21319	F2: 0.21810
+
+['poi', 'restricted_stock_deferred', 'from_this_person_to_poi']
+	Accuracy: 0.73733	Precision: 0.35826	Recall: 0.23000	F1: 0.28015	F2: 0.24774
+
+['poi', 'restricted_stock_deferred', 'director_fees']
+	Accuracy: 0.97840	Precision: 0.94877	Recall: 1.00000	F1: 0.97371	F2: 0.98932
+
+['poi', 'restricted_stock_deferred', 'deferred_income']
+	Accuracy: 0.72329	Precision: 0.51554	Recall: 0.52250	F1: 0.51900	F2: 0.52109
+
+['poi', 'restricted_stock_deferred', 'long_term_incentive']
+	Accuracy: 0.72644	Precision: 0.38043	Recall: 0.36750	F1: 0.37386	F2: 0.37002
+
+['poi', 'restricted_stock_deferred', 'from_poi_to_this_person']
+	Accuracy: 0.70567	Precision: 0.31698	Recall: 0.28100	F1: 0.29791	F2: 0.28753
+
+['poi', 'restricted_stock_deferred', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.74833	Precision: 0.44093	Recall: 0.49450	F1: 0.46618	F2: 0.48277
+
+['poi', 'restricted_stock_deferred', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.74711	Precision: 0.42426	Recall: 0.38650	F1: 0.40450	F2: 0.39350
+
+['poi', 'total_stock_value', 'expenses']
+	Accuracy: 0.81443	Precision: 0.33925	Recall: 0.31550	F1: 0.32694	F2: 0.31998
+
+['poi', 'total_stock_value', 'loan_advances']
+	Accuracy: 0.76223	Precision: 0.22519	Recall: 0.22350	F1: 0.22434	F2: 0.22384
+
+['poi', 'total_stock_value', 'from_messages']
+	Accuracy: 0.75457	Precision: 0.16667	Recall: 0.17950	F1: 0.17285	F2: 0.17678
+
+['poi', 'total_stock_value', 'other']
+	Accuracy: 0.79138	Precision: 0.29978	Recall: 0.26650	F1: 0.28216	F2: 0.27255
+
+['poi', 'total_stock_value', 'from_this_person_to_poi']
+	Accuracy: 0.77677	Precision: 0.22022	Recall: 0.17750	F1: 0.19657	F2: 0.18467
+
+['poi', 'total_stock_value', 'director_fees']
+	Accuracy: 0.78807	Precision: 0.25116	Recall: 0.24400	F1: 0.24753	F2: 0.24540
+
+['poi', 'total_stock_value', 'deferred_income']
+	Accuracy: 0.77836	Precision: 0.19714	Recall: 0.17950	F1: 0.18791	F2: 0.18277
+
+['poi', 'total_stock_value', 'long_term_incentive']
+	Accuracy: 0.75254	Precision: 0.17616	Recall: 0.16550	F1: 0.17066	F2: 0.16753
+
+['poi', 'total_stock_value', 'from_poi_to_this_person']
+	Accuracy: 0.76777	Precision: 0.18413	Recall: 0.14850	F1: 0.16441	F2: 0.15448
+
+['poi', 'total_stock_value', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.81769	Precision: 0.39282	Recall: 0.33900	F1: 0.36393	F2: 0.34855
+
+['poi', 'total_stock_value', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.76238	Precision: 0.21477	Recall: 0.20500	F1: 0.20977	F2: 0.20688
+
+['poi', 'expenses', 'loan_advances']
+	Accuracy: 0.66530	Precision: 0.14720	Recall: 0.14050	F1: 0.14377	F2: 0.14179
+
+['poi', 'expenses', 'from_messages']
+	Accuracy: 0.74958	Precision: 0.18136	Recall: 0.14300	F1: 0.15991	F2: 0.14932
+
+['poi', 'expenses', 'other']
+	Accuracy: 0.80564	Precision: 0.46849	Recall: 0.51300	F1: 0.48974	F2: 0.50343
+
+['poi', 'expenses', 'from_this_person_to_poi']
+	Accuracy: 0.80273	Precision: 0.45605	Recall: 0.44100	F1: 0.44840	F2: 0.44393
+
+['poi', 'expenses', 'director_fees']
+	Accuracy: 0.67791	Precision: 0.11483	Recall: 0.11500	F1: 0.11491	F2: 0.11497
+
+['poi', 'expenses', 'deferred_income']
+	Accuracy: 0.77218	Precision: 0.35834	Recall: 0.32000	F1: 0.33809	F2: 0.32700
+
+['poi', 'expenses', 'long_term_incentive']
+	Accuracy: 0.73109	Precision: 0.23029	Recall: 0.20450	F1: 0.21663	F2: 0.20919
+
+['poi', 'expenses', 'from_poi_to_this_person']
+	Accuracy: 0.75750	Precision: 0.30882	Recall: 0.36750	F1: 0.33562	F2: 0.35405
+
+['poi', 'expenses', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.76882	Precision: 0.36513	Recall: 0.36750	F1: 0.36631	F2: 0.36702
+
+['poi', 'expenses', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.79775	Precision: 0.37551	Recall: 0.32200	F1: 0.34670	F2: 0.33145
+
+['poi', 'loan_advances', 'from_messages']
+	Accuracy: 0.70422	Precision: 0.29693	Recall: 0.24200	F1: 0.26667	F2: 0.25130
+
+['poi', 'loan_advances', 'other']
+	Accuracy: 0.64980	Precision: 0.15519	Recall: 0.16900	F1: 0.16180	F2: 0.16604
+
+['poi', 'loan_advances', 'from_this_person_to_poi']
+	Accuracy: 0.70837	Precision: 0.37083	Recall: 0.23900	F1: 0.29067	F2: 0.25729
+
+['poi', 'loan_advances', 'director_fees']
+	Accuracy: 0.91900	Precision: 0.89867	Recall: 0.94450	F1: 0.92101	F2: 0.93496
+
+['poi', 'loan_advances', 'deferred_income']
+	Accuracy: 0.66850	Precision: 0.50271	Recall: 0.51100	F1: 0.50682	F2: 0.50932
+
+['poi', 'loan_advances', 'long_term_incentive']
+	Accuracy: 0.71375	Precision: 0.42941	Recall: 0.44100	F1: 0.43513	F2: 0.43863
+
+['poi', 'loan_advances', 'from_poi_to_this_person']
+	Accuracy: 0.68463	Precision: 0.34369	Recall: 0.28750	F1: 0.31310	F2: 0.29722
+
+['poi', 'loan_advances', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.71575	Precision: 0.43784	Recall: 0.48250	F1: 0.45909	F2: 0.47285
+
+['poi', 'loan_advances', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.73525	Precision: 0.46228	Recall: 0.36150	F1: 0.40572	F2: 0.37798
+
+['poi', 'from_messages', 'other']
+	Accuracy: 0.69692	Precision: 0.13671	Recall: 0.15400	F1: 0.14484	F2: 0.15020
+
+['poi', 'from_messages', 'from_this_person_to_poi']
+	Accuracy: 0.77722	Precision: 0.49855	Recall: 0.43100	F1: 0.46232	F2: 0.44301
+
+['poi', 'from_messages', 'director_fees']
+	Accuracy: 0.72818	Precision: 0.23975	Recall: 0.22800	F1: 0.23373	F2: 0.23026
+
+['poi', 'from_messages', 'deferred_income']
+	Accuracy: 0.78642	Precision: 0.32656	Recall: 0.26500	F1: 0.29258	F2: 0.27538
+
+['poi', 'from_messages', 'long_term_incentive']
+	Accuracy: 0.69455	Precision: 0.17433	Recall: 0.18200	F1: 0.17808	F2: 0.18041
+
+['poi', 'from_messages', 'from_poi_to_this_person']
+	Accuracy: 0.74956	Precision: 0.42999	Recall: 0.39000	F1: 0.40902	F2: 0.39739
+
+['poi', 'from_messages', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.76633	Precision: 0.47299	Recall: 0.45100	F1: 0.46174	F2: 0.45523
+
+['poi', 'from_messages', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.77500	Precision: 0.49352	Recall: 0.47600	F1: 0.48460	F2: 0.47940
+
+['poi', 'other', 'from_this_person_to_poi']
+	Accuracy: 0.70818	Precision: 0.20138	Recall: 0.20400	F1: 0.20268	F2: 0.20347
+
+['poi', 'other', 'director_fees']
+	Accuracy: 0.68627	Precision: 0.16114	Recall: 0.17250	F1: 0.16663	F2: 0.17010
+
+['poi', 'other', 'deferred_income']
+	Accuracy: 0.72145	Precision: 0.27400	Recall: 0.32250	F1: 0.29628	F2: 0.31147
+
+['poi', 'other', 'long_term_incentive']
+	Accuracy: 0.67120	Precision: 0.24686	Recall: 0.31400	F1: 0.27641	F2: 0.29780
+
+['poi', 'other', 'from_poi_to_this_person']
+	Accuracy: 0.70618	Precision: 0.21053	Recall: 0.22400	F1: 0.21705	F2: 0.22117
+
+['poi', 'other', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.72864	Precision: 0.26802	Recall: 0.28450	F1: 0.27601	F2: 0.28104
+
+['poi', 'other', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.70745	Precision: 0.22393	Recall: 0.24700	F1: 0.23490	F2: 0.24201
+
+['poi', 'from_this_person_to_poi', 'director_fees']
+	Accuracy: 0.74600	Precision: 0.39150	Recall: 0.25800	F1: 0.31103	F2: 0.27688
+
+['poi', 'from_this_person_to_poi', 'deferred_income']
+	Accuracy: 0.77960	Precision: 0.42897	Recall: 0.30800	F1: 0.35856	F2: 0.32641
+
+['poi', 'from_this_person_to_poi', 'long_term_incentive']
+	Accuracy: 0.67310	Precision: 0.20557	Recall: 0.22150	F1: 0.21324	F2: 0.21812
+
+['poi', 'from_this_person_to_poi', 'from_poi_to_this_person']
+	Accuracy: 0.70122	Precision: 0.33170	Recall: 0.33950	F1: 0.33556	F2: 0.33791
+
+['poi', 'from_this_person_to_poi', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.64629	Precision: 0.38525	Recall: 0.39950	F1: 0.39224	F2: 0.39657
+
+['poi', 'from_this_person_to_poi', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.71711	Precision: 0.36184	Recall: 0.35750	F1: 0.35966	F2: 0.35836
+
+['poi', 'director_fees', 'deferred_income']
+	Accuracy: 0.65850	Precision: 0.48740	Recall: 0.47400	F1: 0.48061	F2: 0.47662
+
+['poi', 'director_fees', 'long_term_incentive']
+	Accuracy: 0.73300	Precision: 0.39230	Recall: 0.36700	F1: 0.37923	F2: 0.37180
+
+['poi', 'director_fees', 'from_poi_to_this_person']
+	Accuracy: 0.72150	Precision: 0.29288	Recall: 0.27750	F1: 0.28498	F2: 0.28044
+
+['poi', 'director_fees', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.74767	Precision: 0.44157	Recall: 0.51200	F1: 0.47418	F2: 0.49617
+
+['poi', 'director_fees', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.77260	Precision: 0.42514	Recall: 0.38900	F1: 0.40627	F2: 0.39573
+
+['poi', 'deferred_income', 'long_term_incentive']
+	Accuracy: 0.67000	Precision: 0.18900	Recall: 0.19750	F1: 0.19315	F2: 0.19574
+
+['poi', 'deferred_income', 'from_poi_to_this_person']
+	Accuracy: 0.75418	Precision: 0.34116	Recall: 0.37800	F1: 0.35863	F2: 0.37001
+
+['poi', 'deferred_income', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.77920	Precision: 0.43946	Recall: 0.37750	F1: 0.40613	F2: 0.38845
+
+['poi', 'deferred_income', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.79427	Precision: 0.43068	Recall: 0.40850	F1: 0.41930	F2: 0.41275
+
+['poi', 'long_term_incentive', 'from_poi_to_this_person']
+	Accuracy: 0.74350	Precision: 0.36541	Recall: 0.38350	F1: 0.37424	F2: 0.37974
+
+['poi', 'long_term_incentive', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.68260	Precision: 0.21477	Recall: 0.22100	F1: 0.21784	F2: 0.21973
+
+['poi', 'long_term_incentive', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.70050	Precision: 0.22650	Recall: 0.20600	F1: 0.21576	F2: 0.20980
+
+['poi', 'from_poi_to_this_person', 'from_this_person_to_poi_ratio']
+	Accuracy: 0.76311	Precision: 0.46947	Recall: 0.50750	F1: 0.48775	F2: 0.49941
+
+['poi', 'from_poi_to_this_person', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.68975	Precision: 0.37382	Recall: 0.35700	F1: 0.36522	F2: 0.36024
+
+['poi', 'from_this_person_to_poi_ratio', 'from_poi_to_this_person_ratio']
+	Accuracy: 0.74811	Precision: 0.43308	Recall: 0.43200	F1: 0.43254	F2: 0.43222
+
